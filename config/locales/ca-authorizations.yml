@@ -1,0 +1,6 @@
+ca:
+  decidim:
+    authorization_handlers:
+      barcelona_energia_census_authorization_handler:
+        explanation: Explanation
+        name: Barcelona Energia Census Authorization

@@ -19,13 +19,13 @@
 #   it_behaves_like "an authorization handler"
 #
 # See Decidim::AuthorizationHandler for more documentation.
-class ExampleAuthorizationHandler < Decidim::AuthorizationHandler
+class BarcelonaEnergiaCensusAuthorizationHandler < Decidim::AuthorizationHandler
   # Define the attributes you need for this authorization handler. Attributes
   # are defined using Virtus.
   #
   # Example:
-  # attribute :document_number, String
-  # attribute :birthday, Date
+  attribute :email, String
+  attribute :password, Date
   #
   # You can (and should) also define validations on each attribute:
   #
