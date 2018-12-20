@@ -8,12 +8,18 @@ gem 'puma', '~> 3.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'delayed_job_active_record'
 gem "daemons"
+gem 'whenever'
 
 gem 'openssl'
 
 gem 'figaro', '>= 1.1.1'
 
 gem 'decidim', DECIDIM_VERSION
+
+## Start force versions Gem
+gem 'graphiql-rails', '1.4.11'
+gem 'graphql', '1.8.10'
+## End force versions Gem
 
 group :development, :test do
   gem 'byebug', platform: :mri
