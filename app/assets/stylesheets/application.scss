@@ -95,3 +95,13 @@ $be-navbar-active-bg: $be-navbar-bg-hover;
     }
   }
 }
+
+.logo-wrapper{
+  img{
+    max-height: 53px;
+
+    @include breakpoint(mediumlarge){
+      max-height: 65px;
+    }
+  }
+}
