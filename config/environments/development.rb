@@ -28,6 +28,7 @@ Rails.application.configure do
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.perform_deliveries = true
   # config.action_mailer.delivery_method = :letter_opener_web
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
@@ -38,7 +39,8 @@ Rails.application.configure do
     :password       => Rails.application.secrets.smtp_password,
     :domain         => Rails.application.secrets.smtp_domain,
     :enable_starttls_auto => Rails.application.secrets.smtp_starttls_auto,
-    :openssl_verify_mode => 'none'
+    :openssl_verify_mode => 'none',
+    :ssl => true
   }
 
   config.action_mailer.perform_caching = false
