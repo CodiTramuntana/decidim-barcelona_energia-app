@@ -15,8 +15,6 @@ gem 'openssl'
 gem 'figaro', '>= 1.1.1'
 
 gem 'decidim', DECIDIM_VERSION
-gem 'decidim-initiatives', DECIDIM_VERSION
-gem 'decidim-conferences', DECIDIM_VERSION
 
 gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", tag: "v0.2.0"
 
