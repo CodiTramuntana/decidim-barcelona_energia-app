@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-DECIDIM_VERSION = "~> 0.15.2"
+DECIDIM_VERSION = '~> 0.16.0'
 
 gem 'puma', '~> 3.0'
 gem 'uglifier', '>= 1.3.0'
@@ -18,12 +18,7 @@ gem 'decidim', DECIDIM_VERSION
 gem 'decidim-initiatives', DECIDIM_VERSION
 gem 'decidim-conferences', DECIDIM_VERSION
 
-## Start force versions Gem
-gem 'graphiql-rails', '1.4.11'
-gem 'graphql', '1.8.10'
-## End force versions Gem
-
-gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", tag: "v0.1.0"
+gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", tag: "v0.2.0"
 
 group :development, :test do
   gem 'byebug', platform: :mri
