@@ -23,6 +23,8 @@ gem 'graphiql-rails', '1.4.11'
 gem 'graphql', '1.8.10'
 ## End force versions Gem
 
+gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", tag: "v0.15.2"
+
 group :development, :test do
   gem 'byebug', platform: :mri
   gem "better_errors"
