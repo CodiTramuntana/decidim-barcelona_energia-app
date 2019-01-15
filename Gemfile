@@ -18,6 +18,8 @@ gem 'decidim', DECIDIM_VERSION
 gem 'decidim-initiatives', DECIDIM_VERSION
 gem 'decidim-conferences', DECIDIM_VERSION
 
+gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", tag: "v0.15.2"
+
 group :development, :test do
   gem 'byebug', platform: :mri
   gem "better_errors"
