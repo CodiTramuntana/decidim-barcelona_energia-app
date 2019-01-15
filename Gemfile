@@ -18,11 +18,6 @@ gem 'decidim', DECIDIM_VERSION
 gem 'decidim-initiatives', DECIDIM_VERSION
 gem 'decidim-conferences', DECIDIM_VERSION
 
-## Start force versions Gem
-gem 'graphiql-rails', '1.4.11'
-gem 'graphql', '1.8.10'
-## End force versions Gem
-
 group :development, :test do
   gem 'byebug', platform: :mri
   gem "better_errors"
