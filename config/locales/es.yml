@@ -1,0 +1,6 @@
+es:
+  decidim:
+    pages:
+      home:
+        hero:
+          welcome: Bienvenido/a al %{organization}!

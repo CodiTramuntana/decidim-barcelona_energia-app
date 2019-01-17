@@ -1,0 +1,6 @@
+ca:
+  decidim:
+    pages:
+      home:
+        hero:
+          welcome: Benvingut/da al %{organization}!
