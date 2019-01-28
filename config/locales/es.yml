@@ -1,6 +1,17 @@
 es:
   decidim:
+    devise:
+      registrations:
+        new:
+          nickname_help: Su identificador corto y único al Consejo de personas usuarias de Barcelona Energía.
+    forms:
+      questionnaires:
+        show:
+          answer_questionnaire:
+            anonymous_user_message: <a href="%{sign_in_link}">Inicia sesión con tu cuenta</a> o <a href="%{sign_up_link}">regístrate</a> para responder al cuestionario.
     pages:
       home:
         footer_sub_hero:
-          footer_sub_hero_headline: Bienvenido y bienvenida a la plataforma participativa del Consejo de personas usuarias de Barcelona Energia.
+          footer_sub_hero_headline: Bienvenido y bienvenida a la plataforma participativa del Consejo de personas usuarias de Barcelona Energía.
+      index:
+        subheading: Navegar por las páginas de ayuda del Consejo de personas usuarias de Barcelona Energía

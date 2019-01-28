@@ -1,6 +1,12 @@
 ca:
   decidim:
+    devise:
+      registrations:
+        new:
+          nickname_help: El vostre identificador curt i únic al %{organization}
     pages:
       home:
         footer_sub_hero:
           footer_sub_hero_headline: Benvingut i benvinguda a la plataforma participativa del Consell de persones usuàries de Barcelona Energia.
+      index:
+        subheading: Navega per les pàgines d'ajuda del %{name}
