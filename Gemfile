@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-DECIDIM_VERSION = '~> 0.16.0'
+# DECIDIM_VERSION = '~> 0.16.0'
 
 gem 'puma', '~> 3.0'
 gem 'uglifier', '>= 1.3.0'
@@ -14,7 +14,8 @@ gem 'openssl'
 
 gem 'figaro', '>= 1.1.1'
 
-gem 'decidim', DECIDIM_VERSION
+# gem 'decidim', DECIDIM_VERSION
+gem 'decidim', git: "https://github.com/CodiTramuntana/decidim.git", branch: "backport_0_16_fix_locale_on_cells"
 
 gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", tag: "v0.2.0"
 
@@ -25,7 +26,8 @@ group :development, :test do
 end
 
 group :development do
-  gem 'decidim-dev', DECIDIM_VERSION
+  # gem 'decidim-dev', DECIDIM_VERSION
+  gem 'decidim-dev', git: "https://github.com/CodiTramuntana/decidim.git", branch: "backport_0_16_fix_locale_on_cells"
   gem 'web-console'
   gem 'listen', '~> 3.1.0'
   gem 'spring'
