@@ -1,5 +1,7 @@
 # BARCELONA.ENERGIA.CAT
 
+Until the locale has been fixed on the cells, we create a patch.
+
 ## Deploying the app
 
 Deploy is located in an external project
