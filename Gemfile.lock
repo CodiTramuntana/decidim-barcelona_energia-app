@@ -11,8 +11,8 @@ GIT
 
 GIT
   remote: https://github.com/CodiTramuntana/decidim.git
-  revision: 39f00f049a47a8b7d3e52e094d567249e404f4b6
-  branch: backport_0_16_fix_locale_on_cells
+  revision: 9eaea3a312964126675cf847d4bdbe153ede77fb
+  ref: 9eaea3a312964126675cf847d4bdbe153ede77fb
   specs:
     decidim (0.16.0)
       decidim-accountability (= 0.16.0)
