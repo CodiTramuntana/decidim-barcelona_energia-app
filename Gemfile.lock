@@ -11,8 +11,8 @@ GIT
 
 GIT
   remote: https://github.com/CodiTramuntana/decidim.git
-  revision: 9eaea3a312964126675cf847d4bdbe153ede77fb
-  ref: 9eaea3a312964126675cf847d4bdbe153ede77fb
+  revision: 1a162652d21f0eb4f7145c75915ea83707047d60
+  tag: v0.16.0-be
   specs:
     decidim (0.16.0)
       decidim-accountability (= 0.16.0)
@@ -77,6 +77,7 @@ GIT
       carrierwave (~> 1.1)
       cells-erb (~> 0.1.0)
       cells-rails (~> 0.0.9)
+      charlock_holmes (>= 0.7.6)
       date_validator (~> 0.9.0)
       decidim-api (= 0.16.0)
       devise (~> 4.3)
@@ -171,7 +172,7 @@ GIT
       cells-rails (~> 0.0.9)
       decidim-comments (= 0.16.0)
       decidim-core (= 0.16.0)
-      doc2text (>= 0.3.3)
+      doc2text (>= 0.4.0)
       kaminari (~> 1.0)
       ransack (~> 2.0)
       redcarpet (>= 3.4)
@@ -302,6 +303,7 @@ GEM
     cells-rails (0.0.9)
       actionpack (>= 3.0)
       cells (>= 4.1.6, < 5.0.0)
+    charlock_holmes (0.7.6)
     childprocess (0.9.0)
       ffi (~> 1.0, >= 1.0.11)
     chronic (0.10.2)
