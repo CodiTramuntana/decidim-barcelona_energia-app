@@ -4,9 +4,17 @@ ca:
       registrations:
         new:
           nickname_help: El vostre identificador curt i únic al %{organization}
+    gamification:
+      badges:
+        continuity:
+          next_level_in: "Connecta't per %{score} dies consecutius més per arribar al següent nivell!"
     pages:
       home:
         footer_sub_hero:
           footer_sub_hero_headline: Benvingut i benvinguda a la plataforma participativa del Consell de persones usuàries de Barcelona Energia.
       index:
         subheading: Navega per les pàgines d'ajuda del %{name}
+  devise:
+    sessions:
+      new:
+        sign_in: Iniciar sessió
