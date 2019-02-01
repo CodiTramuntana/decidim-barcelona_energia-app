@@ -11,11 +11,10 @@ gem "daemons"
 gem 'whenever'
 
 gem 'openssl'
-
 gem 'figaro', '>= 1.1.1'
 
 # gem 'decidim', DECIDIM_VERSION
-gem 'decidim', git: "https://github.com/CodiTramuntana/decidim.git", ref: "9eaea3a312964126675cf847d4bdbe153ede77fb"
+gem 'decidim', git: "https://github.com/CodiTramuntana/decidim.git", tag: "v0.16.0-be"
 
 gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", tag: "v0.2.0"
 
@@ -27,7 +26,7 @@ end
 
 group :development do
   # gem 'decidim-dev', DECIDIM_VERSION
-  gem 'decidim-dev', git: "https://github.com/CodiTramuntana/decidim.git", ref: "9eaea3a312964126675cf847d4bdbe153ede77fb"
+  gem 'decidim-dev', git: "https://github.com/CodiTramuntana/decidim.git", tag: "v0.16.0-be"
   gem 'web-console'
   gem 'listen', '~> 3.1.0'
   gem 'spring'
