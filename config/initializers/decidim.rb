@@ -3,7 +3,7 @@
 Decidim.configure do |config|
   config.application_name = "Decidim BarcelonaEnergia"
 
-  config.mailer_sender = "decidim@barcelonaenergia.cat"
+  config.mailer_sender = "isaacmassot@isaacmassot.com"
 
   # Change these lines to set your preferred locales
   config.default_locale = :ca
@@ -11,11 +11,11 @@ Decidim.configure do |config|
 
   config.enable_html_header_snippets = true
   config.track_newsletter_links = true
-  config.geocoder = {
-    static_map_url: "https://image.maps.cit.api.here.com/mia/1.6/mapview",
-    here_app_id: Rails.application.secrets.geocoder[:here_app_id],
-    here_app_code: Rails.application.secrets.geocoder[:here_app_code]
-  }
+  # config.geocoder = {
+  #   static_map_url: "https://image.maps.cit.api.here.com/mia/1.6/mapview",
+  #   here_app_id: Rails.application.secrets.geocoder[:here_app_id],
+  #   here_app_code: Rails.application.secrets.geocoder[:here_app_code]
+  # }
 end
 
 Rails.application.config.i18n.available_locales = Decidim.available_locales
