@@ -16,7 +16,7 @@ gem 'figaro', '>= 1.1.1'
 # gem 'decidim', DECIDIM_VERSION
 gem 'decidim', git: "https://github.com/CodiTramuntana/decidim.git", tag: "v0.16.0-be"
 
-gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", tag: "v0.2.0"
+gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", tag: "v0.2.1"
 
 group :development, :test do
   gem 'byebug', platform: :mri
