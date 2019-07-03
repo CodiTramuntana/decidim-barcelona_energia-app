@@ -15,6 +15,16 @@ module DecidimBarcelonaEnergiaApp
     config.load_defaults 5.1
     config.active_job.queue_adapter = :delayed_job
 
+    # make decorators autoload in development env
+    config.autoload_paths << File.join('app', 'decorators', '{**}')
+
+    # make decorators available to applications that use this Engine
+    config.to_prepare do
+      Dir.glob(Rails.root + 'app/decorators/**/*_decorator*.rb').each do |c|
+        require_dependency(c)
+      end
+    end
+
     # initializer 'add named route overrides' do |app|
     #   app.routes_reloader.paths << File.expand_path('../named_routes_overrides.rb',__FILE__)
     #   # this seems to cause these extra routes to be loaded last, so they will define named routes last.
