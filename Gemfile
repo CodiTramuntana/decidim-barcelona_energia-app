@@ -13,6 +13,11 @@ gem 'whenever'
 gem 'openssl'
 gem 'figaro', '>= 1.1.1'
 
+# Force gem version to fix:
+# undefined method `polymorphic?' for ActiveRecord::Reflection::PolymorphicReflection
+# See: https://github.com/activerecord-hackery/ransack/issues/1039
+gem 'ransack', '2.1.1'
+
 gem 'decidim', DECIDIM_VERSION
 
 gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", tag: "v0.2.3"
