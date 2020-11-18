@@ -2,21 +2,18 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-DECIDIM_VERSION = { git: 'https://github.com/decidim/decidim.git', branch: '0.20-stable' }
+DECIDIM_VERSION = { git: 'https://github.com/decidim/decidim.git', branch: '0.21-stable' }
 
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 4.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'delayed_job_active_record'
 gem "daemons"
 gem 'whenever'
+gem 'rails', '< 6'
 
 gem 'openssl'
 gem 'figaro', '>= 1.1.1'
-
-# Force gem version to fix:
-# undefined method `polymorphic?' for ActiveRecord::Reflection::PolymorphicReflection
-# See: https://github.com/activerecord-hackery/ransack/issues/1039
-gem 'ransack', '2.1.1'
+gem "wicked_pdf"
 
 gem 'decidim', DECIDIM_VERSION
 

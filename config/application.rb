@@ -25,8 +25,6 @@ module DecidimBarcelonaEnergiaApp
       end
     end
 
-    config.time_zone = 'Madrid'
-    config.active_record.default_timezone = :local
     config.active_record.time_zone_aware_attributes = false
 
     # initializer 'add named route overrides' do |app|
