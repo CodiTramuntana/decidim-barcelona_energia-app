@@ -4,6 +4,7 @@ Decidim.configure do |config|
   config.application_name = "Decidim BarcelonaEnergia"
 
   config.mailer_sender = "decidim@barcelonaenergia.cat"
+  config.force_ssl = false
 
   # Change these lines to set your preferred locales
   config.default_locale = :ca
