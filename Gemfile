@@ -16,7 +16,9 @@ gem 'figaro', '>= 1.1.1'
 gem "wicked_pdf"
 
 gem 'decidim', DECIDIM_VERSION
+gem 'decidim-consultations', DECIDIM_VERSION
 
+gem 'decidim-term_customizer', git: "git@github.com:CodiTramuntana/decidim-module-term_customizer.git"
 gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", tag: "v0.2.3"
 
 group :development, :test do
