@@ -18,7 +18,9 @@ gem "wicked_pdf"
 gem 'decidim', DECIDIM_VERSION
 gem 'decidim-consultations', DECIDIM_VERSION
 
-gem 'decidim-term_customizer', git: "git@github.com:CodiTramuntana/decidim-module-term_customizer.git"
+# Fix terms in participatory process. This is required until the fix is merged into the main repository.
+# https://github.com/mainio/decidim-module-term_customizer/pull/44
+gem 'decidim-term_customizer', git: 'git@github.com:CodiTramuntana/decidim-module-term_customizer.git', branch: 'participatory_space_not_retrieved_fix_any_version'
 gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", tag: "v0.2.3"
 
 group :development, :test do
