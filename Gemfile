@@ -14,6 +14,7 @@ gem 'rails', '< 6'
 gem 'openssl'
 gem 'figaro', '>= 1.1.1'
 gem "wicked_pdf"
+gem 'deface'
 
 gem 'decidim', DECIDIM_VERSION
 gem 'decidim-consultations', DECIDIM_VERSION
