@@ -224,6 +224,14 @@ GIT
     decidim-verifications (0.23.2)
       decidim-core (= 0.23.2)
 
+GIT
+  remote: https://github.com/gencat/decidim-verifications-members_picker.git
+  revision: c72facbc79dd4c4d8753a1330a6978ad7259f746
+  specs:
+    decidim-verifications-members_picker (0.0.2)
+      decidim-core (>= 0.16.0)
+      decidim-verifications (>= 0.16.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -831,6 +839,7 @@ DEPENDENCIES
   decidim-dev!
   decidim-term_customizer!
   decidim-verifications-barcelona_energia_census!
+  decidim-verifications-members_picker!
   deface
   delayed_job_active_record
   faker (~> 1.8.4)
