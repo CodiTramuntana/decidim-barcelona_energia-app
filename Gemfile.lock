@@ -1,20 +1,11 @@
 GIT
-  remote: git@github.com:CodiTramuntana/decidim-module-term_customizer.git
-  revision: 065aed0679136ddb2d2536ea01704df743070e2e
-  branch: participatory_space_not_retrieved_fix_any_version
-  specs:
-    decidim-term_customizer (0.22.0)
-      decidim-admin (>= 0.22.0)
-      decidim-core (>= 0.22.0)
-
-GIT
   remote: https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git
-  revision: 55abac40661cdb87ab10b40ec1efb72b113375c7
-  tag: v0.2.3
+  revision: 5dc410d1f9548505eae59429a29eb680132e6892
+  tag: v0.2.4
   specs:
-    decidim-verifications-barcelona_energia_census (0.2.3)
-      decidim-core (>= 0.16.0)
-      decidim-verifications (>= 0.16.0)
+    decidim-verifications-barcelona_energia_census (0.2.4)
+      decidim-core (>= 0.23.0)
+      decidim-verifications (>= 0.23.0)
       rails (>= 5.2)
       virtus-multiparams
 
@@ -231,6 +222,15 @@ GIT
     decidim-verifications-members_picker (0.0.2)
       decidim-core (>= 0.16.0)
       decidim-verifications (>= 0.16.0)
+
+GIT
+  remote: https://github.com/mainio/decidim-module-term_customizer
+  revision: c3fdec9f863351cc2e236cb03e2ab57ff7380ed7
+  branch: 0.23-stable
+  specs:
+    decidim-term_customizer (0.23.0)
+      decidim-admin (~> 0.23.0)
+      decidim-core (~> 0.23.0)
 
 GEM
   remote: https://rubygems.org/
