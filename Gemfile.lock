@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git
-  revision: 5dc410d1f9548505eae59429a29eb680132e6892
-  tag: v0.2.4
+  revision: e6e456323bd3de61bdd0b548016bf7721acac424
+  tag: v0.2.5
   specs:
-    decidim-verifications-barcelona_energia_census (0.2.4)
+    decidim-verifications-barcelona_energia_census (0.2.5)
       decidim-core (>= 0.23.0)
       decidim-verifications (>= 0.23.0)
       rails (>= 5.2)
@@ -428,19 +428,23 @@ GEM
       railties (>= 3.0.0)
     faker (1.8.7)
       i18n (>= 0.7)
-    faraday (1.4.3)
+    faraday (1.5.1)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
       faraday-excon (~> 1.1)
+      faraday-httpclient (~> 1.0.1)
       faraday-net_http (~> 1.0)
       faraday-net_http_persistent (~> 1.1)
+      faraday-patron (~> 1.0)
       multipart-post (>= 1.2, < 3)
       ruby2_keywords (>= 0.0.4)
     faraday-em_http (1.0.0)
     faraday-em_synchrony (1.0.0)
     faraday-excon (1.1.0)
+    faraday-httpclient (1.0.1)
     faraday-net_http (1.0.1)
-    faraday-net_http_persistent (1.1.0)
+    faraday-net_http_persistent (1.2.0)
+    faraday-patron (1.0.0)
     ffi (1.15.3)
     figaro (1.2.0)
       thor (>= 0.14.0, < 2)
@@ -463,7 +467,7 @@ GEM
     graphiql-rails (1.4.11)
       railties
       sprockets-rails
-    graphql (1.12.12)
+    graphql (1.12.13)
     hashdiff (1.0.1)
     hashie (4.1.0)
     highline (2.0.3)
@@ -544,7 +548,7 @@ GEM
     method_source (1.0.0)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2021.0225)
+    mime-types-data (3.2021.0704)
     mini_magick (4.11.0)
     mini_mime (1.1.0)
     mini_portile2 (2.5.3)
@@ -656,7 +660,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.19.0, < 2.0)
     rainbow (3.0.0)
-    rake (13.0.3)
+    rake (13.0.6)
     ransack (2.1.1)
       actionpack (>= 5.0)
       activerecord (>= 5.0)
@@ -730,9 +734,9 @@ GEM
       rubocop (>= 0.68.1)
     ruby-ole (1.2.12.2)
     ruby-progressbar (1.11.0)
-    ruby2_keywords (0.0.4)
+    ruby2_keywords (0.0.5)
     ruby_dep (1.5.0)
-    rubyzip (2.3.0)
+    rubyzip (2.3.2)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)

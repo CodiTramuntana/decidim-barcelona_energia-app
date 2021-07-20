@@ -20,7 +20,7 @@ gem 'decidim', DECIDIM_VERSION
 gem 'decidim-consultations', DECIDIM_VERSION
 
 gem 'decidim-term_customizer', git: 'https://github.com/mainio/decidim-module-term_customizer', branch: '0.23-stable'
-gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", tag: "v0.2.4"
+gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", tag: "v0.2.5"
 gem 'decidim-verifications-members_picker', git: "https://github.com/gencat/decidim-verifications-members_picker.git"
 
 group :development, :test do
