@@ -1,22 +1,15 @@
-# Use this file to easily define all of your cron jobs.
-#
-# It's helpful, but not entirely necessary to understand cron before proceeding.
-# http://en.wikipedia.org/wiki/Cron
+# frozen_string_literal: true
 
-# Example:
-#
-# set :output, "/path/to/my/cron_log.log"
-#
 env :PATH, ENV['PATH']
 
 every 1.day, at: '5:00 am' do
-  rake "decidim:metrics:all"
+  rake 'decidim:metrics:all'
 end
 
 every 1.day, at: '6:00 am' do
-  rake "decidim:open_data:export"
+  rake 'decidim:open_data:export'
 end
 
 every :sunday, at: '4:00 am' do
-  rake "decidim:delete_data_portability_files"
+  rake 'decidim:delete_data_portability_files'
 end

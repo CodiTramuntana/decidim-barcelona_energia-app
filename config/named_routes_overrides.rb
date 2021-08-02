@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # # config/named_routes_overrides.rb
 # Rails.application.routes.draw do
 #   # put your named routes here, which you also included in config/routes.rb
