@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 ruby RUBY_VERSION
 
-DECIDIM_VERSION = { git: 'https://github.com/CodiTramuntana/decidim.git', branch: 'release/0.23-stable' }
+DECIDIM_VERSION = { git: 'https://github.com/CodiTramuntana/decidim.git', branch: 'release/0.24-stable' }
 
 gem 'puma'
 gem 'uglifier', '>= 1.3.0'
@@ -20,8 +20,8 @@ gem 'deface'
 gem 'decidim', DECIDIM_VERSION
 gem 'decidim-consultations', DECIDIM_VERSION
 
-gem 'decidim-term_customizer', git: 'https://github.com/mainio/decidim-module-term_customizer', branch: '0.23-stable'
-gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", tag: "v0.2.5"
+gem 'decidim-term_customizer', git: 'https://github.com/mainio/decidim-module-term_customizer'
+gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git"
 gem 'decidim-verifications-members_picker', git: "https://github.com/gencat/decidim-verifications-members_picker.git"
 
 group :development, :test do
