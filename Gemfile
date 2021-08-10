@@ -1,15 +1,16 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
 
 ruby RUBY_VERSION
 
 DECIDIM_VERSION = { git: 'https://github.com/CodiTramuntana/decidim.git', branch: 'release/0.23-stable' }
 
-gem 'puma', '~> 4.3'
+gem 'puma'
 gem 'uglifier', '>= 1.3.0'
 gem 'delayed_job_active_record'
 gem "daemons"
 gem 'whenever'
-gem 'rails', '< 6'
 
 gem 'openssl'
 gem 'figaro', '>= 1.1.1'
