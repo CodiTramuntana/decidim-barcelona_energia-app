@@ -11,7 +11,6 @@ Decidim.configure do |config|
 
   config.enable_html_header_snippets = true
   config.track_newsletter_links = true
-
   config.maps = {
     provider: :here,
     api_key: Rails.application.secrets.maps[:here_api_key],
