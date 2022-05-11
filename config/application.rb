@@ -27,8 +27,6 @@ module DecidimBarcelonaEnergiaApp
       end
     end
 
-    config.active_record.time_zone_aware_attributes = false
-
     # initializer 'add named route overrides' do |app|
     #   app.routes_reloader.paths << File.expand_path('../named_routes_overrides.rb',__FILE__)
     #   # this seems to cause these extra routes to be loaded last, so they will define named routes last.
