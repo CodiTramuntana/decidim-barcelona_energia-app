@@ -14,7 +14,6 @@
 !/tmp/.keep
 
 /node_modules
-/yarn-error.log
 
 .byebug_history
 
@@ -27,3 +26,9 @@ public/uploads
 /config/deploy.rb
 /config/deploy/*
 /Capfile
+
+/public/packs
+/public/packs-test
+/node_modules
+public/decidim-packs
+/storage

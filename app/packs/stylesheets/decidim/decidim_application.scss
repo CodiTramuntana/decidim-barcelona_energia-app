@@ -1,0 +1,98 @@
+// This is a file that can be overridden by the application in order to override styles
+// Notice that this file is included at the very end of the stylesheets packs to have
+// more priority
+//
+// To override CSS variables or Foundation settings use _decidim-settings.scss
+//
+// By default this is empty.
+
+/* Navigation */
+
+.navbar{
+  background: $be-navbar-bg !important;
+}
+
+.title-bar{
+  background-color: $be-black !important;
+}
+
+/* Menu icon and off-canvas */
+.topbar__menu{
+  button{
+    color: inherit;
+  }
+}
+
+.topbar__edit__link a{
+  &:hover{
+    background: $be-navbar-bg-hover !important;
+    color: $be-navbar-color-hover !important;
+  }
+}
+
+.usermenu-off-canvas-holder .usermenu-off-canvas{
+  a{
+    color: $be-navbar-color !important;
+
+    &:hover{
+      background: $be-navbar-bg-hover !important;
+      color: $be-navbar-color-hover !important;
+    }
+  }
+}
+
+.main-nav__link a{
+  color: $be-navbar-color !important;
+
+  &:hover{
+    background: $be-navbar-bg-hover !important;
+    color: $be-navbar-color-hover !important;
+  }
+}
+
+.main-nav__link--active a{
+  color: $be-navbar-active-color !important;
+  background: $be-navbar-active-bg !important;
+}
+
+
+.omnipresent-banner a{
+  color: $be-black !important;
+}
+
+.button, .subhero-cta{
+  color: $be-black !important;
+}
+
+.button.hollow{
+  border: 1px solid $be-black !important;
+}
+
+.pull-right{
+  float: right;
+}
+
+.main-footer{
+  background: $primary !important;
+  a{
+    color: $be-black !important;
+  }
+}
+.mini-footer{
+  background-color: $be-navbar-bg !important;
+  .column{
+    img{
+      display: none;
+    }
+  }
+}
+
+.logo-wrapper{
+  img{
+    max-height: 53px;
+
+    @include breakpoint(mediumlarge){
+      max-height: 65px;
+    }
+  }
+}
