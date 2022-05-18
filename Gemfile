@@ -11,6 +11,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'delayed_job_active_record'
 gem "daemons"
 gem 'whenever'
+gem 'nokogiri', '>= 1.13.4'
 
 gem 'openssl'
 gem 'figaro', '>= 1.1.1'
