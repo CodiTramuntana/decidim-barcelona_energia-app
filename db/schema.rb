@@ -1549,7 +1549,7 @@ ActiveRecord::Schema.define(version: 2021_07_01_072447) do
     t.datetime "updated_at"
     t.index ["priority", "run_at"], name: "delayed_jobs_priority"
   end
-  
+
   create_table "oauth_access_grants", force: :cascade do |t|
     t.integer "resource_owner_id", null: false
     t.bigint "application_id", null: false
