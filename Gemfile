@@ -11,6 +11,9 @@ gem 'uglifier', '>= 1.3.0'
 gem 'delayed_job_active_record'
 gem "daemons"
 gem 'whenever'
+# Remove this nokogiri forces version at any time but make sure that no __truncato_root__ text appears in the cards in general.
+# More exactly in comments in the homepage and in processes cards in the processes listing
+gem "nokogiri", "1.13.3"
 
 gem 'openssl'
 gem 'figaro', '>= 1.1.1'
@@ -36,6 +39,6 @@ group :development do
   gem 'listen', '~> 3.1.0'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'letter_opener_web'
-  gem 'faker', "~> 1.8.4"
+  gem 'letter_opener_web', '~> 1.3.0'
+  gem 'faker', "~> 2.19.0"
 end
