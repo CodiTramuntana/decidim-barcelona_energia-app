@@ -24,7 +24,7 @@ gem 'decidim', DECIDIM_VERSION
 gem 'decidim-consultations', DECIDIM_VERSION
 
 gem 'decidim-term_customizer', git: 'https://github.com/mainio/decidim-module-term_customizer', branch: 'release/0.25-stable'
-gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", branch: 'update/decidim_version'
+gem 'decidim-verifications-barcelona_energia_census', git: "https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git", tag: 'v0.2.7'
 gem 'decidim-verifications-members_picker', git: "https://github.com/gencat/decidim-verifications-members_picker.git"
 
 group :development, :test do
@@ -39,6 +39,6 @@ group :development do
   gem 'listen', '~> 3.1.0'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'letter_opener_web', '~> 1.3.0'
+  gem 'letter_opener_web'
   gem 'faker', "~> 2.19.0"
 end

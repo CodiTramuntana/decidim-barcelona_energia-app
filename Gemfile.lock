@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/CodiTramuntana/decidim-verifications-barcelona_energia_census.git
-  revision: 0fb0450a0cefcea1a2f63a161652d11a15dc102d
-  branch: update/decidim_version
+  revision: bfb610a71ca24ae4befa3b23e1cd00bdc94fc4a7
+  tag: v0.2.7
   specs:
-    decidim-verifications-barcelona_energia_census (0.2.6)
+    decidim-verifications-barcelona_energia_census (0.2.7)
       decidim-core (~> 0.25.2)
       decidim-verifications (~> 0.25.2)
       rails (>= 5.2)
